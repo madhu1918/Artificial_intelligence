@@ -1,0 +1,298 @@
+ [{
+ 	"title": "Quiz-1",
+ 	"activityType": "quiz",
+ 	"quizDescription": [{
+ 			"text": "The following figure shows three data points and the best fit line y = 3x + 2. The x-coordinate, or \"x\", is our independent variable and the y-coordinate, or \"y\", is our dependent variable."
+ 		}
+ 	],
+ 	"questions": [{
+ 			"questionType": "mcq",
+ 			"questionText": [{
+ 					"text": "Which of these terms best describes the type of AI used in today’s email spam filters, speech recognition, and other specific applications?"
+ 				}
+
+ 			],
+ 			"max_marks": 1,
+ 			"options": [{
+ 					"option": "Artificial Narrow Intelligence (ANI)",
+ 					"correct": "True"
+ 				},
+
+ 				{
+ 					"option": "Artificial General Intelligence (AGI)",
+ 					"correct": "False"
+ 				}
+
+ 			],
+ 			"correct_feedback": "Correct",
+ 			"wrong_feedback": "Incorrect"
+ 		},
+ 		{
+ 			"questionType": "mcq",
+ 			"questionText": [{
+ 					"text": "What do you call the commonly used AI technology for learning input (A) to output (B) mappings?"
+ 				}
+
+ 			],
+ 			"max_marks": 1,
+ 			"options": [{
+ 					"option": "Supervised learning",
+ 					"correct": "True"
+ 				},
+
+ 				{
+ 					"option": "Unsupervised learning",
+ 					"correct": "False"
+ 				},
+ 				{
+ 					"option": "Reinforcement learning",
+ 					"correct": "False"
+ 				},
+
+ 				{
+ 					"option": "Artificial General Intelligence",
+ 					"correct": "False"
+ 				}
+
+ 			],
+ 			"correct_feedback": "Correct",
+ 			"wrong_feedback": "Incorrect"
+ 		},
+ 		{
+ 			"questionType": "checkbox",
+ 			"questionText": [{
+ 					"text": "You want to use supervised learning to build a speech recognition system. The figure below suggests that in order for a neural network (deep learning) to achieve the best performance, you would ideally use: (Select all that apply)"
+ 				},
+ 				{
+ 			"image": {
+ 				"imageName": "",
+ 				"imageSRC": "image-1.png"
+ 			}
+ 		}
+
+ 			],
+ 			"max_marks": 1,
+ 			"options": [{
+ 					"option": "A large dataset (of audio files and the corresponding text transcript)",
+ 					"correct": "True"
+ 				},
+
+ 				{
+ 					"option": "A small dataset (of audio files and the corresponding text transcript)",
+ 					"correct": "False"
+ 				},
+ 				{
+ 					"option": "A large neural network",
+ 					"correct": "True"
+ 				},
+
+ 				{
+ 					"option": "A small neural network",
+ 					"correct": "False"
+ 				}
+
+ 			],
+ 			"correct_feedback": "Correct",
+ 			"wrong_feedback": "Incorrect"
+ 		},
+ 		{
+ 			"questionType": "mcq",
+ 			"questionText": [{
+ 					"text": "The only way to acquire data for a supervised learning algorithm is to manually label it. I.e., given the input A, to ask a human to provide B."
+ 				}
+
+ 			],
+ 			"max_marks": 1,
+ 			"options": [{
+ 					"option": "True",
+ 					"correct": "False"
+ 				},
+
+ 				{
+ 					"option": "False",
+ 					"correct": "True"
+ 				}
+
+ 			],
+ 			"correct_feedback": "Correct",
+ 			"wrong_feedback": "Incorrect"
+ 		},
+ 		{
+ 			"questionType": "mcq",
+ 			"questionText": [{
+ 					"text": "Which of these statements regarding data acquisition do you agree with?"
+ 				}
+
+ 			],
+ 			"max_marks": 1,
+ 			"options": [{
+ 					"option": "It doesn’t help to give data to an AI team, because they can always produce whatever they need by themselves.",
+ 					"correct": "False"
+ 				},
+
+ 				{
+ 					"option": "Only structured data is valuable; AI cannot process unstructured data.",
+ 					"correct": "False"
+ 				},
+ 				{
+ 					"option": "Some types of data are more valuable than others; working with an AI team can help you figure out what data to acquire.",
+ 					"correct": "True"
+ 				},
+
+ 				{
+ 					"option": "It doesn’t matter how data is acquired. The more data, the better.",
+ 					"correct": "False"
+ 				}
+
+ 			],
+ 			"correct_feedback": "Correct",
+ 			"wrong_feedback": "Incorrect"
+ 		},
+ 		{
+ 			"questionType": "checkbox",
+ 			"questionText": [{
+ 					"text": "You run a company that manufactures scooters. Which of the following are examples of unstructured data? (Select all that apply.)"
+ 				}
+
+ 			],
+ 			"max_marks": 1,
+ 			"options": [{
+ 					"option": "Audio files of the engine sound of your scooters",
+ 					"correct": "True"
+ 				},
+
+ 				{
+ 					"option": "Pictures of your scooters",
+ 					"correct": "True"
+ 				},
+ 				{
+ 					"option": "The maximum speed of each of your scooters",
+ 					"correct": "False"
+ 				},
+
+ 				{
+ 					"option": "The number of scooters sold per week over the past year",
+ 					"correct": "False"
+ 				}
+
+ 			],
+ 			"correct_feedback": "Correct",
+ 			"wrong_feedback": "Incorrect"
+ 		},
+ 		{
+ 			"questionType": "checkbox",
+ 			"questionText": [{
+ 					"text": "Suppose you run a website that sells cat food. Which of these might be a good result from a Data Science project? (Select all that apply.)"
+ 				}
+
+ 			],
+ 			"max_marks": 1,
+ 			"options": [{
+ 					"option": "A slide deck presenting a plan on how to modify pricing in order to improve sales.",
+ 					"correct": "True"
+ 				},
+
+ 				{
+ 					"option": "A neural network that closely mimics how cats’ brains work.",
+ 					"correct": "False"
+ 				},
+ 				{
+ 					"option": "A large dataset of images labeled as \"Cat\" and \"Not Cat\"",
+ 					"correct": "False"
+ 				},
+
+ 				{
+ 					"option": "Insights into how to market cat food more effectively, depending on the breed of cat.",
+ 					"correct": "True"
+ 				}
+
+ 			],
+ 			"correct_feedback": "Correct",
+ 			"wrong_feedback": "Incorrect"
+ 		},
+ 		{
+ 			"questionType": "checkbox",
+ 			"questionText": [{
+ 					"text": "Based on the terminology defined in Video 4, which of the following statements do you agree with? (Select all that apply.)"
+ 				}
+
+ 			],
+ 			"max_marks": 1,
+ 			"options": [{
+ 					"option": "The terms “Deep learning” and “neural network” are used almost interchangeably.",
+ 					"correct": "True"
+ 				},
+
+ 				{
+ 					"option": "Deep learning is a type of machine learning.  (I.e., all deep learning algorithms are machine learning algorithms.)",
+ 					"correct": "True"
+ 				},
+ 				{
+ 					"option": "AI is a type of deep learning. (I.e., all AI algorithms are deep learning algorithms.)",
+ 					"correct": "False"
+ 				},
+
+ 				{
+ 					"option": "The terms “Machine learning” and “data science” are used almost interchangeably.",
+ 					"correct": "False"
+ 				}
+
+ 			],
+ 			"correct_feedback": "Correct",
+ 			"wrong_feedback": "Incorrect"
+ 		},
+ 		{
+ 			"questionType": "mcq",
+ 			"questionText": [{
+ 					"text": "What of these do AI companies do well?"
+ 				}
+
+ 			],
+ 			"max_marks": 1,
+ 			"options": [{
+ 					"option": "Strategic data acquisition",
+ 					"correct": "False"
+ 				},
+
+ 				{
+ 					"option": "Invest in unified data warehouses",
+ 					"correct": "False"
+ 				},
+ 				{
+ 					"option": "Spot automation opportunities",
+ 					"correct": "False"
+ 				},
+
+ 				{
+ 					"option": "All of the above",
+ 					"correct": "True"
+ 				}
+
+ 			],
+ 			"correct_feedback": "Correct",
+ 			"wrong_feedback": "Incorrect"
+ 		},
+ 		{
+ 			"questionType": "mcq",
+ 			"questionText": [{
+ 					"text": "Say you want to input a picture of a person’s face (A), and output whether or not they are smiling (B). Because this is a task that most humans can do in less than 1 second, supervised learning can probably learn this A-to-B mapping."
+ 				}
+
+ 			],
+ 			"max_marks": 1,
+ 			"options": [{
+ 					"option": "True",
+ 					"correct": "True"
+ 				},
+
+ 				{
+ 					"option": "False",
+ 					"correct": "False"
+ 				}
+
+ 			],
+ 			"correct_feedback": "Correct",
+ 			"wrong_feedback": "Incorrect"
+ 		}
+ 	]
+ }]

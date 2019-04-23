@@ -1,0 +1,58 @@
+[{
+	"title": "Assignment-2",
+	"activityType": "assignment",
+	"questions": [{
+		"questionType": "fillintheblank",
+		"max_marks": 40,
+		"graded": true,
+		"questionText": [{
+				"text": "The below is the continuation of yesterday's problem so once go through the previous days' problem and start today's problem<br>Every day you will be given a code you need to trace it and record a screencast of the tracing and submit it. Reach your mentor for the exact format of the video<br><br>Now that we have squares, units, and peers, the next step is to define the Sudoku playing grid. Actually, we need two representations: First, a textual format used to specify the initial state of a puzzle; we will reserve the name grid for this. Second, an internal representation of any state of a puzzle partially solved or complete; this we will call a values collection because it will give all the remaining possible values for each square. For the textual format (grid) we'll allow a string of characters with 1-9 indicating a digit, and a 0 or period specifying an empty square. All other characters are ignored (including spaces, newlines, dashes, and bars). So each of the following three grid strings represents the same puzzle:"
+			},
+			{
+				"image": {
+					"imageName": "",
+					"imageSRC": "image-1.png"
+				}
+			},
+			{
+				"text": "Now for values. One might think that a 9 x 9 array would be the obvious data structure. But squares have names like 'A1', not (0,0). Therefore, values will be a dict with squares as keys. The value of each key will be the possible digits for that square: a single digit if it was given as part of the puzzle definition or if we have figured out what it must be, and a collection of several digits if we are still uncertain. This collection of digits could be represented by a Python set or list, but I chose instead to use a string of digits (we'll see why later). So a grid where A1 is 7 and C7 is empty would be represented as {'A1': '7', 'C7': '123456789', ...}.<br>Here is the code to parse a grid into a values dict:"
+			},
+			{
+				"image": {
+					"imageName": "",
+					"imageSRC": "image-2.png"
+				}
+			},
+			{
+				"text": "<b>Constraint Propagation</b><br>The function parse_grid calls assign(values, s, d). We could implement this as values[s] = d, but we can do more than just that. Those with experience solving Sudoku puzzles know that there are two important strategies that we can use to make progress towards filling in all the squares:<br>(1) If a square has only one possible value, then eliminate that value from the square's peers. <br>(2) If a unit has only one possible place for a value, then put the value there.<br>As an example of strategy (1) if we assign 7 to A1, yielding {'A1': '7', 'A2':'123456789', ...}, we see that A1 has only one value, and thus the 7 can be removed from its peer A2 (and all other peers), giving us {'A1': '7', 'A2': '12345689', ...}. As an example of strategy (2), if it turns out that none of A3 through A9 has a 3 as a possible value, then the 3 must belong in A2, and we can update to {'A1': '7', 'A2':'3', ...}. These updates to A2 may, in turn, cause further updates to its peers, and the peers of those peers, and so on. This process is called constraint propagation.<br>The function assign(values, s, d) will return the updated values (including the updates from constraint propagation), but if there is a contradiction--if the assignment cannot be made consistently--then assign returns False. For example, if a grid starts with the digits '77...' then when we try to assign the 7 to A2, assign would notice that 7 is not a possibility for A2, because it was eliminated by the peer, A1.<br>It turns out that the fundamental operation is not assigning a value, but rather eliminating one of the possible values for a square, which we implement with eliminate(values, s, d). Once we have eliminated, then assign(values, s, d) can be defined as \"eliminate all the values from s except d\""
+			},
+			{
+				"image": {
+					"imageName": "",
+					"imageSRC": "image-3.png"
+				}
+			},
+			{
+				"text": "Now before we can go much further, we will need to display a puzzle:"
+			},
+			{
+				"image": {
+					"imageName": "",
+					"imageSRC": "image-4.png"
+				}
+			},
+			{
+				"text": "<b>In this case, the puzzle was completely solved by the rote application of strategies (1) and (2)! Unfortunately, that will not always be the case. Here is the first example from a list of hard puzzles.</b>>"
+			},
+			{
+				"image": {
+					"imageName": "",
+					"imageSRC": "image-5.png"
+				}
+			},
+			{
+				"text": "In this case, we are still a long way from solving the puzzle--61 squares remain uncertain. What next? We could try to code more sophisticated strategies. For example, the naked twins' strategy looks for two squares in the same unit that both have the same two possible digits. Given {'A5': '26', 'A6':'26', ...}, we can conclude that 2 and 6 must be in A5 and A6 (although we don't know which is where), and we can, therefore, eliminate 2 and 6 from every other square in the A row unit. We could code that strategy in a few lines by adding an elif len(values[s]) == 2 test to eliminate.<br>Coding up strategies like this is a possible route, but would require hundreds of lines of code (there are dozens of these strategies), and we'd never be sure if we could solve every puzzle."
+			}
+		]
+	}]
+}]

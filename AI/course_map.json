@@ -1,0 +1,39 @@
+{
+    "activities": [],
+    "learningObjectives": [],
+    "overview": [],
+    "title": "Artificial Intelligence",
+    "units": [{
+            "activities": [
+                "Video on Introduction",
+                "Video on Machine Learning",
+                "Video on What is data",
+                "Video on The Terminology of AI",
+                "Video on What makes an AI company",
+                "Video on What machine learning can and can not do",
+                "Video on More examples of what machine learning can and can not do",
+                "Quiz-1",
+                "Assignment-1",
+                "Assignment-2"
+            ],
+            "learningObjectives": [],
+            "overview": [],
+            "title": "What is an AI company"
+        },
+        {
+            "activities": [
+                "Video on Non-technical explanation of deep learning-1",
+                "Video on Non-technical explanation of deep learning-2",
+                "Video on Intro_Building AI projects",
+                "Video on Workflow of a machine learning project",
+                "Video on Workflow of a data science project",
+                "Video on Every job function needs to learn how to use data",
+                "Assignment-1",
+                "Assignment-2"
+            ],
+            "learningObjectives": [],
+            "overview": [],
+            "title": "Building AI projects"
+        }
+    ]
+}
