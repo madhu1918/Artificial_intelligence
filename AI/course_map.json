@@ -34,6 +34,38 @@
             "learningObjectives": [],
             "overview": [],
             "title": "Building AI projects"
+        },
+        {
+            "activities": [
+                "Video on How to choose an AI project-1",
+                "Video on How to choose an AI project-2",
+                "Video on Working with an AI team",
+                "Video on Technical tools for AI teams",
+                "Video on intro_Building AI in your company",
+                "Video on Case study Smart speaker",
+                "Video on Case study Self-driving car",
+                "Quiz-1",
+                "Assignment-1",
+                "Assignment-2"
+            ],
+            "learningObjectives": [],
+            "overview": [],
+            "title": "Building AI projects and Building AI in your company"
+        },
+        {
+            "activities": [
+                "Video on Example roles of an AI team",
+                "Video on AI Transformation Playbook-1",
+                "Video on AI Transformation Playbook-2",
+                "Video on AI pitfalls to avoid",
+                "Video on Taking your first step in AI",
+                "Video on Survey of major AI application areas",
+                "Video on Survey of major AI techniques",
+                "Quiz-1"
+            ],
+            "learningObjectives": [],
+            "overview": [],
+            "title": "Building AI in your company"
         }
     ]
 }
