@@ -1,0 +1,252 @@
+ [{
+ 	"title": "Quiz-1",
+ 	"activityType": "quiz",
+ 	"questions": [{
+ 			"questionType": "checkbox",
+ 			"questionText": [{
+ 					"text": "What are the current limitations of AI technology? (Select all that apply)"
+ 				}
+
+ 			],
+ 			"max_marks": 1,
+ 			"options": [{
+ 					"option": "AI technology is susceptible to adversarial attacks",
+ 					"correct": "True"
+ 				},
+
+ 				{
+ 					"option": "AI technology can be biased",
+ 					"correct": "True"
+ 				},
+ 				{
+ 					"option": "Explainability is hard",
+ 					"correct": "True"
+ 				},
+
+ 				{
+ 					"option": "There are no limitations to AI technology",
+ 					"correct": "True"
+ 				},
+ 				{
+ 					"option": "AI technology can discriminate",
+ 					"correct": "False"
+ 				}
+
+ 			],
+ 			"correct_feedback": "Correct",
+ 			"wrong_feedback": "Incorrect"
+ 		},
+ 		{
+ 			"questionType": "mcq",
+ 			"questionText": [{
+ 					"text": "What is the Goldilocks Rule of AI?"
+ 				}
+
+ 			],
+ 			"max_marks": 1,
+ 			"options": [{
+ 					"option": "One should allocate many resources to defend the world from giant killer robots",
+ 					"correct": "False"
+ 				},
+
+ 				{
+ 					"option": "AI’s technology will continue to grow and can only benefit society",
+ 					"correct": "False"
+ 				},
+ 				{
+ 					"option": "An AI winter is coming",
+ 					"correct": "False"
+ 				},
+
+ 				{
+ 					"option": "One shouldn’t be too optimistic or too pessimistic about AI technology",
+ 					"correct": "True"
+ 				}
+ 			],
+ 			"correct_feedback": "Correct",
+ 			"wrong_feedback": "Incorrect"
+ 		}, {
+ 			"questionType": "mcq",
+ 			"questionText": [{
+ 					"text": "Say you are building an AI system to help make diagnoses from X-ray scans. Which of the following statements about explainability of AI do you agree with?"
+ 				}
+
+ 			],
+ 			"max_marks": 1,
+ 			"options": [{
+ 					"option": "Lack of explainability can hamper users’ willingness to trust and adopt an AI system.",
+ 					"correct": "False"
+ 				},
+
+ 				{
+ 					"option": "Most AI systems are highly explainable, meaning that it’s easy for a doctor to figure out why an AI system gave a particular diagnosis.",
+ 					"correct": "False"
+ 				},
+ 				{
+ 					"option": "AI systems are intrinsically “black box” and cannot give any explanation for their outputs.",
+ 					"correct": "True"
+ 				},
+
+ 				{
+ 					"option": "Explainability is usually achieved through building a chatbot to talk to the user to explain its outputs.",
+ 					"correct": "False"
+ 				}
+ 			],
+ 			"correct_feedback": "Correct",
+ 			"wrong_feedback": "Incorrect"
+ 		},
+ 		{
+ 			"questionType": "mcq",
+ 			"questionText": [{
+ 					"text": "Using current AI technology, if a machine learning system learns from text that reflects unhealthy biases/stereotypes, then the resulting AI software may also exhibit similarly unhealthy biases/stereotypes."
+ 				}
+
+ 			],
+ 			"max_marks": 1,
+ 			"options": [{
+ 					"option": "True",
+ 					"correct": "True"
+ 				},
+
+ 				{
+ 					"option": "False",
+ 					"correct": "False"
+ 				}
+ 			],
+ 			"correct_feedback": "Correct",
+ 			"wrong_feedback": "Incorrect"
+ 		},
+ 		{
+ 			"questionType": "mcq",
+ 			"questionText": [{
+ 					"text": "Using current AI technology, if a machine learning system learns only from text that is completely neutral and does not reflect any gender biases, then we would expect it to exhibit no, or at most minimal, gender bias."
+ 				}
+
+ 			],
+ 			"max_marks": 1,
+ 			"options": [{
+ 					"option": "True",
+ 					"correct": "True"
+ 				},
+
+ 				{
+ 					"option": "False",
+ 					"correct": "False"
+ 				}
+ 			],
+ 			"correct_feedback": "Correct",
+ 			"wrong_feedback": "Incorrect"
+ 		},
+ 		{
+ 			"questionType": "checkbox",
+ 			"questionText": [{
+ 					"text": "Which of these are good practices for addressing bias in AI? (Select all that apply)"
+ 				}
+
+ 			],
+ 			"max_marks": 1,
+ 			"options": [{
+ 					"option": "Systematic auditing processes to check for bias",
+ 					"correct": "False"
+ 				},
+
+ 				{
+ 					"option": "Using an adversarial attack on the AI system to change its outputs to be less biased",
+ 					"correct": "False"
+ 				},
+ 				{
+ 					"option": "Using more inclusive/less biased data",
+ 					"correct": "True"
+ 				},
+
+ 				{
+ 					"option": "Technical solution such as \"zeroing out\" bias",
+ 					"correct": "True"
+ 				}
+ 			],
+ 			"correct_feedback": "Correct",
+ 			"wrong_feedback": "Incorrect"
+ 		},
+ 		{
+ 			"questionType": "checkbox",
+ 			"questionText": [{
+ 					"text": "Which of these are examples of adversarial attacks on an AI system? (Select all that apply)"
+ 				}
+
+ 			],
+ 			"max_marks": 1,
+ 			"options": [{
+ 					"option": "Adding a sticker to a stop sign to make an AI system fail to detect it.",
+ 					"correct": "True"
+ 				},
+
+ 				{
+ 					"option": "Subtly modifying an audio clip to make a speech recognition system think someone said \"Yes, authorized\" when they actually said \"No, reject.\"",
+ 					"correct": "True"
+ 				},
+ 				{
+ 					"option": "Using AI to synthesize a fake video of a politician saying something they never actually said.",
+ 					"correct": "True"
+ 				},
+
+ 				{
+ 					"option": "Subtly changing an image to make an AI system mistakenly recognize a dog as a cat.",
+ 					"correct": "True"
+ 				}
+ 			],
+ 			"correct_feedback": "Correct",
+ 			"wrong_feedback": "Incorrect"
+ 		},
+ 		{
+ 			"questionType": "mcq",
+ 			"questionText": [{
+ 					"text": "If a developing economy has a strong and thriving coffee bean manufacturing industry (or some other vertical industry), then it has an advantage in applying AI to coffee bean manufacturing (or other vertical industry)."
+ 				}
+
+ 			],
+ 			"max_marks": 1,
+ 			"options": [{
+ 					"option": "True",
+ 					"correct": "True"
+ 				},
+
+ 				{
+ 					"option": "False",
+ 					"correct": "False"
+ 				}
+ 			],
+ 			"correct_feedback": "Correct",
+ 			"wrong_feedback": "Incorrect"
+ 		},
+ 		{
+ 			"questionType": "mcq",
+ 			"questionText": [{
+ 					"text": "What are the jobs that AI is most likely to displace over the next several years?"
+ 				}
+
+ 			],
+ 			"max_marks": 1,
+ 			"options": [{
+ 					"option": "Jobs that comprise primarily of non-routine, non-repetitive work",
+ 					"correct": "False"
+ 				},
+
+ 				{
+ 					"option": "All jobs will be displaced",
+ 					"correct": "False"
+ 				},
+ 				{
+ 					"option": "Jobs that comprise primarily of routine, repetitive work",
+ 					"correct": "True"
+ 				},
+
+ 				{
+ 					"option": "Most jobs involving office work (white collar jobs)",
+ 					"correct": "False"
+ 				}
+ 			],
+ 			"correct_feedback": "Correct",
+ 			"wrong_feedback": "Incorrect"
+ 		}
+ 	]
+ }]

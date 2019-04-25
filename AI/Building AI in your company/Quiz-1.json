@@ -1,0 +1,296 @@
+ [{
+ 	"title": "Quiz-1",
+ 	"activityType": "quiz",
+ 	"questions": [{
+ 			"questionType": "mcq",
+ 			"questionText": [{
+ 					"text": "Because smart speakers can carry out multiple functions (such as tell a joke, play music, etc.) it is an example of Artificial General Intelligence (AGI)."
+ 				}
+
+ 			],
+ 			"max_marks": 1,
+ 			"options": [{
+ 					"option": "True",
+ 					"correct": "False"
+ 				},
+
+ 				{
+ 					"option": "False",
+ 					"correct": "True"
+ 				}
+
+ 			],
+ 			"correct_feedback": "Correct",
+ 			"wrong_feedback": "Incorrect"
+ 		},
+ 		{
+ 			"questionType": "mcq",
+ 			"questionText": [{
+ 					"text": "What are the key steps to a smart speaker function?"
+ 				}
+
+ 			],
+ 			"max_marks": 1,
+ 			"options": [{
+ 					"option": "Trigger word detection -> intent recognition -> speech recognition -> command execution.",
+ 					"correct": "False"
+ 				},
+
+ 				{
+ 					"option": "Trigger detection -> intent recognition -> speech recognition -> command execution.",
+ 					"correct": "False"
+ 				},
+				{
+ 					"option": "Speech recognition → Trigger word detection -> intent recognition -> command execution.",
+ 					"correct": "False"
+ 				},
+
+ 				{
+ 					"option": "Trigger word detection -> speech recognition -> intent recognition -> command execution.",
+ 					"correct": "True"
+ 				}	 				
+	
+ 			],
+ 			"correct_feedback": "Correct",
+ 			"wrong_feedback": "Incorrect"
+ 		},
+ 		{
+ 			"questionType": "mcq",
+ 			"questionText": [{
+ 					"text": "Consider this system for building a self-driving car:"
+ 				},
+ 				{
+				"image": {
+					"imageName": "",
+					"imageSRC": "image-1.png"
+				}
+			},
+			{
+ 					"text": "The component for pedestrian detection is usually built using:"
+ 				}
+ 			],
+ 			"max_marks": 1,
+ 			"options": [{
+ 					"option": "A motion planning algorithm",
+ 					"correct": "False"
+ 				},
+
+ 				{
+ 					"option": "Supervised learning",
+ 					"correct": "True"
+ 				},
+				{
+ 					"option": "GANs",
+ 					"correct": "False"
+ 				},
+
+ 				{
+ 					"option": "Reinforcement learning",
+ 					"correct": "False"
+ 				}	 				
+	
+ 			],
+ 			"correct_feedback": "Correct",
+ 			"wrong_feedback": "Incorrect"
+ 		},
+ 		{
+ 			"questionType": "mcq",
+ 			"questionText": [{
+ 					"text": "Suppose you are building a trigger word detection system, and want to hire someone to build a system to map from Inputs A (audio clip) to Outputs B (whether the trigger word was said), using existing AI technology. Out of the list below, which of the following hires would be most suitable for writing this software?"
+ 				}
+ 			],
+ 			"max_marks": 1,
+ 			"options": [{
+ 					"option": "Machine learning researcher",
+ 					"correct": "False"
+ 				},
+
+ 				{
+ 					"option": "AI Product Manager",
+ 					"correct": "False"
+ 				},
+				{
+ 					"option": "Data engineer",
+ 					"correct": "False"
+ 				},
+
+ 				{
+ 					"option": "Machine learning engineer",
+ 					"correct": "True"
+ 				}	 				
+	
+ 			],
+ 			"correct_feedback": "Correct",
+ 			"wrong_feedback": "Incorrect"
+ 		},
+ 		{
+ 			"questionType": "mcq",
+ 			"questionText": [{
+ 					"text": "What is the first step in the AI Transformation Playbook for helping your company become good at AI?"
+ 				}
+ 			],
+ 			"max_marks": 1,
+ 			"options": [{
+ 					"option": "Build an in-house AI team",
+ 					"correct": "False"
+ 				},
+
+ 				{
+ 					"option": "Execute pilot projects to gain momentum",
+ 					"correct": "True"
+ 				},
+				{
+ 					"option": "Provide broad AI training",
+ 					"correct": "False"
+ 				},
+
+ 				{
+ 					"option": "Develop an AI strategy",
+ 					"correct": "False"
+ 				}	 				
+	
+ 			],
+ 			"correct_feedback": "Correct",
+ 			"wrong_feedback": "Incorrect"
+ 		},
+ 		{
+ 			"questionType": "mcq",
+ 			"questionText": [{
+ 					"text": "Of the following options, which is the most important trait of your first pilot project?"
+ 				}
+ 			],
+ 			"max_marks": 1,
+ 			"options": [{
+ 					"option": "Succeed and show traction within 6-10 months",
+ 					"correct": "True"
+ 				},
+
+ 				{
+ 					"option": "Drive extremely high value for the business",
+ 					"correct": "False"
+ 				},
+				{
+ 					"option": "Be executed by an in-house team",
+ 					"correct": "False"
+ 				},
+
+ 				{
+ 					"option": "None of the above",
+ 					"correct": "False"
+ 				}	 				
+	
+ 			],
+ 			"correct_feedback": "Correct",
+ 			"wrong_feedback": "Incorrect"
+ 		},
+ 		{
+ 			"questionType": "mcq",
+ 			"questionText": [{
+ 					"text": "Say you are building a smart speaker, and want to accumulate data for your product through having many users. Which of these represents the \"Virtuous circle of AI\" for this product?"
+ 				}
+ 			],
+ 			"max_marks": 1,
+ 			"options": [{
+ 					"option": "Better smart speaker --->  more users of speaker --->  more user data ---> Better smart speaker",
+ 					"correct": "True"
+ 				},
+
+ 				{
+ 					"option": "Better smart speaker --->  more users data --->  more users of speaker ---> Better smart speaker",
+ 					"correct": "False"
+ 				},
+				{
+ 					"option": "Better smart speaker ---> more commands supported --->more users of speaker---> Better smart speaker",
+ 					"correct": "False"
+ 				},
+
+ 				{
+ 					"option": "Better smart speaker --->  more users of speaker --->more commands supported--->Better smart speaker",
+ 					"correct": "False"
+ 				}	 				
+	
+ 			],
+ 			"correct_feedback": "Correct",
+ 			"wrong_feedback": "Incorrect"
+ 		},
+ 		{
+ 			"questionType": "mcq",
+ 			"questionText": [{
+ 					"text": "Why is developing an AI strategy NOT the first step in the AI Transformation Playbook?"
+ 				}
+ 			],
+ 			"max_marks": 1,
+ 			"options": [{
+ 					"option": "The strategy should be to use the Virtuous Circle of AI, which comes after building a product.",
+ 					"correct": "False"
+ 				},
+
+ 				{
+ 					"option": "When transforming a company into an AI company, one does not need a strategy, therefore it can’t be the first step.",
+ 					"correct": "False"
+ 				},
+				{
+ 					"option": "Without having some practical AI experience and knowing what it feels like to build an AI project, a company usually does not know enough to formulate a sound strategy.",
+ 					"correct": "True"
+ 				},
+
+ 				{
+ 					"option": "There is no reason. Developing an AI strategy IS the first step in the AI Transformation Playbook.",
+ 					"correct": "False"
+ 				}	 				
+	
+ 			],
+ 			"correct_feedback": "Correct",
+ 			"wrong_feedback": "Incorrect"
+ 		},
+ 		{
+ 			"questionType": "mcq",
+ 			"questionText": [{
+ 					"text": "According to the AI Transformation Playbook, broad AI training needs to be provided not only to engineers, but also to executives/senior business leaders and to leaders of divisions working on AI projects."
+ 				}
+ 			],
+ 			"max_marks": 1,
+ 			"options": [{
+ 					"option": "True",
+ 					"correct": "True"
+ 				},
+
+ 				{
+ 					"option": "False",
+ 					"correct": "False"
+ 				}
+ 			],
+ 			"correct_feedback": "Correct",
+ 			"wrong_feedback": "Incorrect"
+ 		},
+ 		{
+ 			"questionType": "checkbox",
+ 			"questionText": [{
+ 					"text": "Which of the following are AI pitfalls to avoid? (Select all that apply)"
+ 				}
+ 			],
+ 			"max_marks": 1,
+ 			"options": [{
+ 					"option": "Expecting AI based projects to work the first time",
+ 					"correct": "True"
+ 				},
+
+ 				{
+ 					"option": "Expecting AI to solve everything",
+ 					"correct": "True"
+ 				},
+ 				{
+ 					"option": "Pairing engineering talent with business talent to identify feasible and valuable projects.",
+ 					"correct": "False"
+ 				},
+
+ 				{
+ 					"option": "Expecting traditional planning processes to apply without changes",
+ 					"correct": "True"
+ 				}
+ 			],
+ 			"correct_feedback": "Correct",
+ 			"wrong_feedback": "Incorrect"
+ 		}
+ 	]
+ }]

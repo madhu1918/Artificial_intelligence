@@ -61,11 +61,31 @@
                 "Video on Taking your first step in AI",
                 "Video on Survey of major AI application areas",
                 "Video on Survey of major AI techniques",
-                "Quiz-1"
+                "Quiz-1",
+                "Assignment-1",
+                "Assignment-2"
             ],
             "learningObjectives": [],
             "overview": [],
             "title": "Building AI in your company"
+        },
+        {
+            "activities": [
+                "Video on Introduction",
+                "Video on A realistic view of AI",
+                "Video on Discrimination(or)Bias",
+                "Video on Adversarial attacks on AI",
+                "Video on Adverse uses of AI",
+                "Video on AI and developing economies",
+                "Video on AI and jobs",
+                "Video on Conclusion",
+                "Quiz-1",
+                "Assignment-1",
+                "Assignment-2"
+            ],
+            "learningObjectives": [],
+            "overview": [],
+            "title": "AI and society"
         }
     ]
 }

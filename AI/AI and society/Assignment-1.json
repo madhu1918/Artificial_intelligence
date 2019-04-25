@@ -1,0 +1,13 @@
+[{
+	"title":"Assignment-1",
+	"activityType":"assignment",
+	"questions":[
+		{
+		"max_marks":10,
+		"graded": true,
+		"questionType":"fillintheblank",
+		"questionText":"Submit the summary of your discussion"
+		}
+
+	]
+}]

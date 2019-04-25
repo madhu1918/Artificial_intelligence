@@ -1,0 +1,22 @@
+[{
+	"title": "Assignment-2",
+	"activityType": "assignment",
+	"questions": [{
+		"questionType": "fillintheblank",
+		"max_marks": 40,
+		"graded": true,
+		"questionText": [{
+				"text": "Implement a feature for the sudoku solver puzzle that we implemented upto yesterday. The following is the feature you need to implement<br><br>Make the numbers in the two diagonals of the sudoku puzzle also unique. The following is the example."
+			},
+			{
+				"image": {
+					"imageName": "",
+					"imageSRC": "image-1.png"
+				}
+			},
+			{
+				"text": "In the above example including rows columns and individual squares the two diagonal numbers also unique.<br><br>Implement the above required feature for the code and do a screencast by explaining the changes you done in the code and show the output also in the screencast"
+			}
+		]
+	}]
+}]
