@@ -1,0 +1,13 @@
+[{
+	"title": "Topic research",
+	"activityType": "assignment",
+	"questions": [{
+		"questionType": "fillintheblank",
+		"max_marks": 25,
+		"graded": true,
+		"questionText": [{
+				"text": "Submit the document link of your research topic below."
+			}
+		]
+	}]
+}]

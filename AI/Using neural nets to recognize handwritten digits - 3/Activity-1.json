@@ -1,0 +1,11 @@
+[
+	{
+	"title":"Activity-1",
+	"activityType": "reading",
+	"quizDescription": [
+		{
+			"text": "Hi all we are going to solve Handwritten digits recognition problem in this week. You were given resources for the problem and you need to solve the problem.<br><br>Resources <br><a href=\"http://neuralnetworksanddeeplearning.com/chap1.html\">http://neuralnetworksanddeeplearning.com/chap1.html</a>.<br><a href=\" https://drive.google.com/file/d/11DmArIyMeK5y7PrLgfcroU-QVsuKD6SJ/view?usp=sharing\"> https://drive.google.com/file/d/11DmArIyMeK5y7PrLgfcroU-QVsuKD6SJ/view?usp=sharing</a><br><br>The above two resources represent the same content but in different format you can use any of the resource depends on your convenience.<br><br>Complete the following topics in chapter-1 and you will have discussion on the end of the day.<br>Implementing our network to classify digits<br>Toward deep learning"
+		}
+	]
+	}
+]
